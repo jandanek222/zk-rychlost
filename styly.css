@@ -1,0 +1,2320 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Coolvetica light;
+	letter-spacing: 1px;
+}
+
+body{
+	background:black;
+	color:#fff;
+}
+
+.header{
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-color: black;
+}
+
+.container{
+	padding: 15px 15px 0px 15px;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.logo{
+	color:#0000FF ;
+	width: 110px;
+	cursor: pointer;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px 0px;
+	margin-left: 40px;
+}
+
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: 1px;
+}
+
+nav ul li a::after{
+	content: ' ';
+	width: 0%;
+	height: 2px;
+	background: #0000FF;
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	transition: 0.0s;
+
+}
+
+nav ul li a:hover::after{
+	width: 100%;
+}
+
+.ou{
+	font-size: 20px;
+}
+
+
+.header-text{
+	padding: 15px 15px;
+	font-size: 20px;
+	font-family: Coolvetica;
+}
+
+#portfolio{
+	padding: 10px 15px 20px;
+	max-width: 1920px;
+	width: 100%;
+}
+
+.work-container{
+	display: flex;
+	gap: 10px;
+}
+
+.colum{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 55%;
+}
+
+.colum2{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 45%;
+}
+
+.work-card img{
+	width: 100%;
+	border-radius: 5px;
+}
+
+.work-card video{
+	width: 100%;
+	border-radius: 5px;
+}
+
+.sopranos{
+	width: 600px;
+}
+
+.work-card{
+	position: relative;
+}
+
+.work-detaily{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.0);
+	display: flex;
+	justify-content: left;
+	flex-direction: column;
+	opacity: 0;
+	transition: 0.0s;
+	text-align: left;
+}
+
+
+.work-detaily:hover{
+	opacity: 1;
+}
+
+.work-detaily h3{
+	font-size: 30px;
+	color: white;
+	margin: 15px;
+	text-align: left;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+
+.odkazy{
+	text-decoration: none;
+}
+
+/*-------------footer--------*/
+
+.footerContainer{
+	width: 100%;
+	padding: 5px 30px 30px;
+	position: absolute;
+}
+
+.socialmedia{
+	display: flex;
+	justify-content: center;
+}
+
+.socialmedia a{
+	padding: 10px;
+	margin: 10px;
+	color: white;
+	font-size: 20px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: 1px;
+}
+
+.footerbottom{
+	padding: 20px;
+	text-align: center;
+}
+
+.footerbottom p{
+	font-size: 15px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: 1px;
+}
+
+.desiner-name{
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: 1px;
+	font-size: 15px;
+}
+
+/*-------------profil-------*/
+#about{
+	padding: 15px;
+	text-align: left;
+	display: flex;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Coolvetica light;
+	letter-spacing: 1px;
+}
+
+.container3{
+	display: flex;
+}
+
+.colum2{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.zkus{
+	padding: 0px 0px 30px ;
+}
+
+.zkus h2{
+	font-size: 22px;
+	text-align: left;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+}
+
+.zkus ul li{
+	font-size: 20px;
+	text-align: left;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	letter-spacing: 2px;
+	padding: 2px 0px 2px;
+}
+
+.zkus ul li a{
+	font-size: 20px;
+	text-align: left;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	letter-spacing: 2px;
+	padding: 2px 0px 2px;
+	text-decoration: underline;
+	color: white;
+}
+
+.container2{
+	display: flex;
+	position: relative;
+	padding-right: 0px;
+	padding-left: 50px;
+}
+
+
+.tabulka{
+	padding-top: 10px;
+}
+
+.tabulka h2{
+	font-size: 22px;
+	text-align: left;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	letter-spacing: 2px;
+}
+
+
+.container2 form.top, .container2 form.stred, .container2 form.bottom, .container2 form.bottom{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	flex-direction: column;
+
+
+}
+
+.tabulka input{
+	margin: 10px 0px;
+	padding: 15px;
+	width: 650px;
+	border: none;
+	resize: none;
+	border-radius: 5px;
+	outline: none;
+	display: flex;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	letter-spacing: 1px;
+
+}
+
+.tabulka textarea{
+	margin: 10px 0px;
+	padding: 15px;
+	width: 650px;
+	border: none;
+	resize: none;
+	border-radius: 5px;
+	outline: none;
+	display: flex;
+
+}
+
+.tabulka form{
+	font-family: "coolvetica", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	letter-spacing: 1px;
+}
+
+
+
+
+.container2 form > button{
+	color: white;
+	border: none;
+	background: #0000FF;
+	padding: 15px;
+	box-sizing: border-box;
+	width: 650px;
+	border-radius: 5px;
+	outline: none;
+	text-align: center;
+	cursor: pointer;
+
+}
+
+
+
+.kontakty{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding: 15px 0px;
+	padding-bottom: 40px;
+}
+
+.soc{
+	text-align: right;
+	align-content: right;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+.soc ul li{
+	list-style: none;
+}
+
+.soc ul li a{
+	color: #fff;
+	list-style: none;
+	position: relative;
+	font-size: 15px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	letter-spacing: 2px;
+	text-decoration: none;
+	padding: 2px 0px;
+}
+
+
+.soc h3{
+	font-size: 15px;
+	padding-bottom: 10px;;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: 2px;
+}
+
+
+.odkaz{
+	text-align: left;
+}
+
+.odkaz h3{
+	font-size: 15px;
+	padding-bottom: 10px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: 2px;
+
+}
+
+.odkaz p{
+	font-size: 15px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	letter-spacing: 2px;
+}
+
+.list{
+	list-style: none;
+}
+
+.popis{
+	font-family: "coolvetica", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 20px;
+	letter-spacing: 2px;
+
+}
+
+.about-text{
+	padding-right:30px ;
+}
+
+.thomu{
+	width: 100%;
+	margin: 0px 0px 10px;
+	border-radius: 5px;
+	position: relative;
+	bottom: 10px;
+}
+
+.colum2 h2{
+	font-size: 22px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+
+/*********************************************************************************************TELEFON********************************************************************************/
+
+@media (max-width: 375px){
+	
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: Coolvetica light;
+		letter-spacing: 1px;
+	}
+
+	.ou{
+		font-size: 13px;
+		padding-bottom: 3px;
+	}
+
+	.container{
+		padding: 15px 10px 0px 10px;
+	}
+
+	.logo{
+		top: 5px;
+		width: 80px;
+	}
+	
+	nav ul li{
+		display: inline-block;
+		list-style: none;
+		margin: 10px 0px;
+		margin-left: 40px;
+	}
+
+	nav ul li a::after{
+		content: ' ';
+		width: 0%;
+		height: 2px;
+		background: #0000FF;
+		position: absolute;
+		left: 0;
+		bottom: 5px;
+		transition: 0.0s;
+
+	}
+
+	nav ul li a:hover::after{
+		width: 100%;
+	}
+
+	.header-text{
+		padding: 10px 10px 5px;
+	}
+
+	.header-text p{
+		font-size: 13px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 200;
+		font-style: normal;
+	}
+
+	.header-text p em{
+		font-size: 13px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 200;
+		font-style: italic;
+	}
+
+	.socialmedia a{
+		padding: 10px 10px 10px 10px;
+		margin: 10px;
+		color: white;
+		font-size: 11px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.footerbottom{
+		padding: 10px 20px 20px 20px;
+		text-align: center;
+	}
+
+	.footerContainer{
+		width: 100%;
+		padding: 5px 10px 20px;
+		position: absolute;
+	}
+
+
+	.socialmedia{
+		display: flex;
+		justify-content: center;
+	}
+
+
+	.footerbottom p{
+		font-size: 9px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.desiner-name{
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+		font-size: 9px;
+	}
+
+	#portfolio{
+		padding: 10px 10px 20px;
+		max-width: 1920px;
+		width: 100%;
+	}
+
+	.work-container{
+		display: block;
+		gap: 3px;
+		padding-bottom: 3px;
+	}
+
+	.colum{
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		padding-bottom: 5px;
+		width:100%;
+	}
+
+	.colum2{
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		padding-bottom: 10px;
+		width: 100%;
+	}
+	.work-detaily h3{
+		font-size: 18px;
+		color: white;
+		margin: 15px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+	}
+
+	#about{
+		padding: 15px 10px 0px 10px;
+		text-align: left;
+		display: block;
+	}
+
+	.container3{
+		display: block;
+	}
+
+
+	.zkus{
+		padding: 0px 0px 20px ;
+	}
+
+	.zkus h2{
+		font-size: 15px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		margin-bottom: 5px;
+		letter-spacing: 2px;
+	}
+
+	.zkus ul li{
+		font-size: 11px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 2px;
+		padding: 2px 0px 2px;
+	}
+
+	.zkus ul li a{
+		font-size: 11px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 1px;
+		padding: 2px 0px 2px;
+		text-decoration: underline;
+		color: white;
+	}
+
+	.container2{
+		display: block;
+		position: relative;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+
+	.tabulka{
+		padding-top: 0px;
+	}
+
+	.tabulka h2{
+		font-size: 15px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		margin-bottom: 5px;
+		padding-bottom: 0px;
+		letter-spacing: 1px;
+	}
+
+
+	.container2 form.top, .container2 form.stred, .container2 form.bottom, .container2 form.bottom{
+		display: block;
+		justify-content: center;
+	}
+
+
+	.tabulka input{
+		margin: 10px 0px;
+		padding: 15px;
+		border: none;
+		resize: none;
+		border-radius: 5px;
+		outline: none;
+		display: flex;
+		width: 100%;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 200;
+		font-style: normal;
+		letter-spacing: 1px;
+}
+
+	.tabulka textarea{
+		margin: 10px 0px;
+		padding: 15px;
+		border: none;
+		resize: none;
+		border-radius: 5px;
+		outline: none;
+		display: flex;
+		width: 100%;
+	}
+
+	.tabulka form textarea, .tabulka form button{
+		font-family: "coolvetica", sans-serif;
+		font-weight: 200;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+
+	.container2 form > button{
+		color: white;
+		border: none;
+		background: #0000FF;
+		padding: 15px;
+		border-radius: 5px;
+		outline: none;
+		text-align: center;
+		cursor: pointer;
+		width: 100%;
+
+	}
+	
+	.kontakty{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		padding: 15px 0px;
+		padding-bottom: 40px;
+	}
+
+	.soc{
+		text-align: right;
+		align-content: right;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		font-size: 10px;
+		letter-spacing: 1px;
+	}
+
+	.soc ul li{
+		list-style: none;
+	}
+
+	.soc ul li a{
+		color: #fff;
+		list-style: none;
+		position: relative;
+		font-size: 10px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 1px;
+		text-decoration: none;
+		padding: 2px 0px;
+	}
+
+
+	.soc h3{
+		font-size: 10px;
+		padding-bottom: 5px;;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 350;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+
+	.odkaz{
+		text-align: left;
+	}
+
+	.odkaz h3{
+		font-size: 10px;
+		padding-bottom: 5px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+
+	}
+
+	.odkaz p{
+		font-size: 10px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.list{
+		list-style: none;
+	}
+
+	.popis{
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		font-size: 11px;
+		letter-spacing: 1px;
+
+	}
+
+	.thomu{
+		width: 100%;
+		margin: 0px 0px 5px;
+		border-radius: 5px;
+		position: relative;
+		bottom: 10px;
+	}
+
+	.colum2 h2{
+		font-size: 15px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: 2px;
+		margin-bottom: 5px;
+
+	}
+
+}
+
+
+/***************************************************************************************************************************************************************************************/
+
+@media (max-width: 360px){
+	
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: Coolvetica light;
+		letter-spacing: 1px;
+	}
+
+	.ou{
+		font-size: 13px;
+		padding-bottom: 3px;
+	}
+
+	.container{
+		padding: 15px 10px 0px 10px;
+	}
+
+	.logo{
+		top: 5px;
+		width: 80px;
+	}
+	
+	nav ul li{
+		display: inline-block;
+		list-style: none;
+		margin: 10px 0px;
+		margin-left: 40px;
+	}
+
+	nav ul li a::after{
+		content: ' ';
+		width: 0%;
+		height: 2px;
+		background: #0000FF;
+		position: absolute;
+		left: 0;
+		bottom: 5px;
+		transition: 0.0s;
+
+	}
+
+	nav ul li a:hover::after{
+		width: 100%;
+	}
+
+	.header-text{
+		padding: 10px 10px 5px;
+	}
+
+	.header-text p{
+		font-size: 13px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 200;
+		font-style: normal;
+	}
+
+	.header-text p em{
+		font-size: 13px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 200;
+		font-style: italic;
+	}
+
+	.socialmedia a{
+		padding: 10px 10px 10px 10px;
+		margin: 10px;
+		color: white;
+		font-size: 11px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.footerbottom{
+		padding: 10px 20px 20px 20px;
+		text-align: center;
+	}
+
+	.footerContainer{
+		width: 100%;
+		padding: 5px 10px 20px;
+		position: absolute;
+	}
+
+
+	.socialmedia{
+		display: flex;
+		justify-content: center;
+	}
+
+
+	.footerbottom p{
+		font-size: 9px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.desiner-name{
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+		font-size: 9px;
+	}
+
+	#portfolio{
+		padding: 10px 10px 20px;
+		max-width: 1920px;
+		width: 100%;
+	}
+
+	.work-container{
+		display: block;
+		gap: 3px;
+		padding-bottom: 3px;
+	}
+
+	.colum{
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		padding-bottom: 5px;
+		width:100%;
+	}
+
+	.colum2{
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		padding-bottom: 10px;
+		width: 100%;
+	}
+	.work-detaily h3{
+		font-size: 18px;
+		color: white;
+		margin: 15px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+	}
+
+	#about{
+		padding: 15px 10px 0px 10px;
+		text-align: left;
+		display: block;
+	}
+
+	.container3{
+		display: block;
+	}
+
+
+	.zkus{
+		padding: 0px 0px 20px ;
+	}
+
+	.zkus h2{
+		font-size: 15px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		margin-bottom: 5px;
+		letter-spacing: 2px;
+	}
+
+	.zkus ul li{
+		font-size: 11px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 2px;
+		padding: 2px 0px 2px;
+	}
+
+	.zkus ul li a{
+		font-size: 11px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 1px;
+		padding: 2px 0px 2px;
+		text-decoration: underline;
+		color: white;
+	}
+
+	.container2{
+		display: block;
+		position: relative;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+
+	.tabulka{
+		padding-top: 0px;
+	}
+
+	.tabulka h2{
+		font-size: 15px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		margin-bottom: 5px;
+		padding-bottom: 0px;
+		letter-spacing: 1px;
+	}
+
+
+	.container2 form.top, .container2 form.stred, .container2 form.bottom, .container2 form.bottom{
+		display: block;
+		justify-content: center;
+	}
+
+
+	.tabulka input{
+		margin: 10px 0px;
+		padding: 15px;
+		border: none;
+		resize: none;
+		border-radius: 5px;
+		outline: none;
+		display: flex;
+		width: 100%;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 200;
+		font-style: normal;
+		letter-spacing: 1px;
+}
+
+	.tabulka textarea{
+		margin: 10px 0px;
+		padding: 15px;
+		border: none;
+		resize: none;
+		border-radius: 5px;
+		outline: none;
+		display: flex;
+		width: 100%;
+	}
+
+	.tabulka form textarea, .tabulka form button{
+		font-family: "coolvetica", sans-serif;
+		font-weight: 200;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+
+	.container2 form > button{
+		color: white;
+		border: none;
+		background: #0000FF;
+		padding: 15px;
+		border-radius: 5px;
+		outline: none;
+		text-align: center;
+		cursor: pointer;
+		width: 100%;
+
+	}
+	
+	.kontakty{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		padding: 15px 0px;
+		padding-bottom: 40px;
+	}
+
+	.soc{
+		text-align: right;
+		align-content: right;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		font-size: 10px;
+		letter-spacing: 1px;
+	}
+
+	.soc ul li{
+		list-style: none;
+	}
+
+	.soc ul li a{
+		color: #fff;
+		list-style: none;
+		position: relative;
+		font-size: 10px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 1px;
+		text-decoration: none;
+		padding: 2px 0px;
+	}
+
+
+	.soc h3{
+		font-size: 10px;
+		padding-bottom: 5px;;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 350;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+
+	.odkaz{
+		text-align: left;
+	}
+
+	.odkaz h3{
+		font-size: 10px;
+		padding-bottom: 5px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+
+	}
+
+	.odkaz p{
+		font-size: 10px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.list{
+		list-style: none;
+	}
+
+	.popis{
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		font-size: 11px;
+		letter-spacing: 1px;
+
+	}
+
+	.thomu{
+		width: 100%;
+		margin: 0px 0px 5px;
+		border-radius: 5px;
+		position: relative;
+		bottom: 10px;
+	}
+
+	.colum2 h2{
+		font-size: 15px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: 2px;
+		margin-bottom: 5px;
+
+	}
+
+}
+
+/*****************************************************************************************************************************************************************************************/
+
+@media (max-width: 414px){
+	
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: Coolvetica light;
+		letter-spacing: 1px;
+	}
+
+	.ou{
+		font-size: 13px;
+		padding-bottom: 3px;
+	}
+
+	.container{
+		padding: 15px 10px 0px 10px;
+	}
+
+	.logo{
+		top: 5px;
+		width: 80px;
+	}
+	
+	nav ul li{
+		display: inline-block;
+		list-style: none;
+		margin: 10px 0px;
+		margin-left: 40px;
+	}
+
+	nav ul li a::after{
+		content: ' ';
+		width: 0%;
+		height: 2px;
+		background: #0000FF;
+		position: absolute;
+		left: 0;
+		bottom: 5px;
+		transition: 0.0s;
+
+	}
+
+	nav ul li a:hover::after{
+		width: 100%;
+	}
+
+	.header-text{
+		padding: 10px 10px 5px;
+	}
+
+	.header-text p{
+		font-size: 13px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 200;
+		font-style: normal;
+	}
+
+	.header-text p em{
+		font-size: 13px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 200;
+		font-style: italic;
+	}
+
+	.socialmedia a{
+		padding: 10px 10px 10px 10px;
+		margin: 10px;
+		color: white;
+		font-size: 12px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.footerbottom{
+		padding: 10px 20px 20px 20px;
+		text-align: center;
+	}
+
+	.footerContainer{
+		width: 100%;
+		padding: 5px 10px 20px;
+		position: absolute;
+	}
+
+
+	.socialmedia{
+		display: flex;
+		justify-content: center;
+	}
+
+
+	.footerbottom p{
+		font-size: 12px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.desiner-name{
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+		font-size: 12px;
+	}
+
+	#portfolio{
+		padding: 10px 10px 20px;
+		max-width: 1920px;
+		width: 100%;
+	}
+
+	.work-container{
+		display: block;
+		gap: 3px;
+		padding-bottom: 3px;
+	}
+
+	.colum{
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		padding-bottom: 5px;
+		width:100%;
+	}
+
+	.colum2{
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		padding-bottom: 10px;
+		width: 100%;
+	}
+	.work-detaily h3{
+		font-size: 18px;
+		color: white;
+		margin: 15px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+	}
+
+	#about{
+		padding: 15px 10px 0px 10px;
+		text-align: left;
+		display: block;
+	}
+
+	.container3{
+		display: block;
+	}
+
+
+	.zkus{
+		padding: 0px 0px 20px ;
+	}
+
+	.zkus h2{
+		font-size: 16px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		margin-bottom: 5px;
+		letter-spacing: 2px;
+	}
+
+	.zkus ul li{
+		font-size: 12px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 2px;
+		padding: 2px 0px 2px;
+	}
+
+	.zkus ul li a{
+		font-size: 11px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 1px;
+		padding: 2px 0px 2px;
+		text-decoration: underline;
+		color: white;
+	}
+
+	.container2{
+		display: block;
+		position: relative;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+
+	.tabulka{
+		padding-top: 0px;
+	}
+
+	.tabulka h2{
+		font-size: 16px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		margin-bottom: 5px;
+		padding-bottom: 0px;
+		letter-spacing: 1px;
+	}
+
+
+	.container2 form.top, .container2 form.stred, .container2 form.bottom, .container2 form.bottom{
+		display: block;
+		justify-content: center;
+	}
+
+
+	.tabulka input{
+		margin: 10px 0px;
+		padding: 15px;
+		border: none;
+		resize: none;
+		border-radius: 5px;
+		outline: none;
+		display: flex;
+		width: 100%;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 200;
+		font-style: normal;
+		letter-spacing: 1px;
+}
+
+	.tabulka textarea{
+		margin: 10px 0px;
+		padding: 15px;
+		border: none;
+		resize: none;
+		border-radius: 5px;
+		outline: none;
+		display: flex;
+		width: 100%;
+	}
+
+	.tabulka form textarea, .tabulka form button{
+		font-family: "coolvetica", sans-serif;
+		font-weight: 200;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+
+	.container2 form > button{
+		color: white;
+		border: none;
+		background: #0000FF;
+		padding: 15px;
+		border-radius: 5px;
+		outline: none;
+		text-align: center;
+		cursor: pointer;
+		width: 100%;
+
+	}
+	
+	.kontakty{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		padding: 15px 0px;
+		padding-bottom: 40px;
+	}
+
+	.soc{
+		text-align: right;
+		align-content: right;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		font-size: 11px;
+		letter-spacing: 1px;
+	}
+
+	.soc ul li{
+		list-style: none;
+	}
+
+	.soc ul li a{
+		color: #fff;
+		list-style: none;
+		position: relative;
+		font-size: 11px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 1px;
+		text-decoration: none;
+		padding: 2px 0px;
+	}
+
+
+	.soc h3{
+		font-size: 11px;
+		padding-bottom: 5px;;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 350;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+
+	.odkaz{
+		text-align: left;
+	}
+
+	.odkaz h3{
+		font-size: 11px;
+		padding-bottom: 5px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+
+	}
+
+	.odkaz p{
+		font-size: 11px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.list{
+		list-style: none;
+	}
+
+	.popis{
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		font-size: 12px;
+		letter-spacing: 1px;
+
+	}
+
+	.thomu{
+		width: 100%;
+		margin: 0px 0px 5px;
+		border-radius: 5px;
+		position: relative;
+		bottom: 10px;
+	}
+
+	.colum2 h2{
+		font-size: 16px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: 2px;
+		margin-bottom: 5px;
+
+	}
+
+}
+
+/************************************************************************************************************************************************************************************/
+
+@media (max-width: 395px){
+	
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: Coolvetica light;
+		letter-spacing: 1px;
+	}
+
+	.ou{
+		font-size: 13px;
+		padding-bottom: 3px;
+	}
+
+	.container{
+		padding: 15px 10px 0px 10px;
+	}
+
+	.logo{
+		top: 5px;
+		width: 80px;
+	}
+	
+	nav ul li{
+		display: inline-block;
+		list-style: none;
+		margin: 10px 0px;
+		margin-left: 40px;
+	}
+
+	nav ul li a::after{
+		content: ' ';
+		width: 0%;
+		height: 2px;
+		background: #0000FF;
+		position: absolute;
+		left: 0;
+		bottom: 5px;
+		transition: 0.0s;
+
+	}
+
+	nav ul li a:hover::after{
+		width: 100%;
+	}
+
+	.header-text{
+		padding: 10px 10px 5px;
+	}
+
+	.header-text p{
+		font-size: 13px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 200;
+		font-style: normal;
+	}
+
+	.header-text p em{
+		font-size: 13px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 200;
+		font-style: italic;
+	}
+
+	.socialmedia a{
+		padding: 10px 10px 10px 10px;
+		margin: 10px;
+		color: white;
+		font-size: 11px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.footerbottom{
+		padding: 10px 20px 20px 20px;
+		text-align: center;
+	}
+
+	.footerContainer{
+		width: 100%;
+		padding: 5px 10px 20px;
+		position: absolute;
+	}
+
+
+	.socialmedia{
+		display: flex;
+		justify-content: center;
+	}
+
+
+	.footerbottom p{
+		font-size: 9px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.desiner-name{
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+		font-size: 9px;
+	}
+
+	#portfolio{
+		padding: 10px 10px 20px;
+		max-width: 1920px;
+		width: 100%;
+	}
+
+	.work-container{
+		display: block;
+		gap: 3px;
+		padding-bottom: 3px;
+	}
+
+	.colum{
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		padding-bottom: 5px;
+		width:100%;
+	}
+
+	.colum2{
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		padding-bottom: 10px;
+		width: 100%;
+	}
+	.work-detaily h3{
+		font-size: 18px;
+		color: white;
+		margin: 15px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+	}
+
+	#about{
+		padding: 15px 10px 0px 10px;
+		text-align: left;
+		display: block;
+	}
+
+	.container3{
+		display: block;
+	}
+
+
+	.zkus{
+		padding: 0px 0px 20px ;
+	}
+
+	.zkus h2{
+		font-size: 15px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		margin-bottom: 5px;
+		letter-spacing: 2px;
+	}
+
+	.zkus ul li{
+		font-size: 11px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 2px;
+		padding: 2px 0px 2px;
+	}
+
+	.zkus ul li a{
+		font-size: 11px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 1px;
+		padding: 2px 0px 2px;
+		text-decoration: underline;
+		color: white;
+	}
+
+	.container2{
+		display: block;
+		position: relative;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+
+	.tabulka{
+		padding-top: 0px;
+	}
+
+	.tabulka h2{
+		font-size: 15px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		margin-bottom: 5px;
+		padding-bottom: 0px;
+		letter-spacing: 1px;
+	}
+
+
+	.container2 form.top, .container2 form.stred, .container2 form.bottom, .container2 form.bottom{
+		display: block;
+		justify-content: center;
+	}
+
+
+	.tabulka input{
+		margin: 10px 0px;
+		padding: 15px;
+		border: none;
+		resize: none;
+		border-radius: 5px;
+		outline: none;
+		display: flex;
+		width: 100%;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 200;
+		font-style: normal;
+		letter-spacing: 1px;
+}
+
+	.tabulka textarea{
+		margin: 10px 0px;
+		padding: 15px;
+		border: none;
+		resize: none;
+		border-radius: 5px;
+		outline: none;
+		display: flex;
+		width: 100%;
+	}
+
+	.tabulka form textarea, .tabulka form button{
+		font-family: "coolvetica", sans-serif;
+		font-weight: 200;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+
+	.container2 form > button{
+		color: white;
+		border: none;
+		background: #0000FF;
+		padding: 15px;
+		border-radius: 5px;
+		outline: none;
+		text-align: center;
+		cursor: pointer;
+		width: 100%;
+
+	}
+	
+	.kontakty{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		padding: 15px 0px;
+		padding-bottom: 40px;
+	}
+
+	.soc{
+		text-align: right;
+		align-content: right;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		font-size: 10px;
+		letter-spacing: 1px;
+	}
+
+	.soc ul li{
+		list-style: none;
+	}
+
+	.soc ul li a{
+		color: #fff;
+		list-style: none;
+		position: relative;
+		font-size: 10px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 1px;
+		text-decoration: none;
+		padding: 2px 0px;
+	}
+
+
+	.soc h3{
+		font-size: 10px;
+		padding-bottom: 5px;;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 350;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+
+	.odkaz{
+		text-align: left;
+	}
+
+	.odkaz h3{
+		font-size: 10px;
+		padding-bottom: 5px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+
+	}
+
+	.odkaz p{
+		font-size: 10px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.list{
+		list-style: none;
+	}
+
+	.popis{
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		font-size: 11px;
+		letter-spacing: 1px;
+
+	}
+
+	.thomu{
+		width: 100%;
+		margin: 0px 0px 5px;
+		border-radius: 5px;
+		position: relative;
+		bottom: 10px;
+	}
+
+	.colum2 h2{
+		font-size: 15px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: 2px;
+		margin-bottom: 5px;
+
+	}
+
+}
+
+/*****************************************************************************************************************************************************************************************/
+
+@media (max-width: 430px){
+	
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: Coolvetica light;
+		letter-spacing: 1px;
+	}
+
+	.ou{
+		font-size: 13px;
+		padding-bottom: 3px;
+	}
+
+	.container{
+		padding: 15px 10px 0px 10px;
+	}
+
+	.logo{
+		top: 5px;
+		width: 80px;
+	}
+	
+	nav ul li{
+		display: inline-block;
+		list-style: none;
+		margin: 10px 0px;
+		margin-left: 40px;
+	}
+
+	nav ul li a::after{
+		content: ' ';
+		width: 0%;
+		height: 2px;
+		background: #0000FF;
+		position: absolute;
+		left: 0;
+		bottom: 5px;
+		transition: 0.0s;
+
+	}
+
+	nav ul li a:hover::after{
+		width: 100%;
+	}
+
+	.header-text{
+		padding: 10px 10px 5px;
+	}
+
+	.header-text p{
+		font-size: 13px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 200;
+		font-style: normal;
+	}
+
+	.header-text p em{
+		font-size: 13px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 200;
+		font-style: italic;
+	}
+
+	.socialmedia a{
+		padding: 10px 10px 10px 10px;
+		margin: 10px;
+		color: white;
+		font-size: 12px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.footerbottom{
+		padding: 10px 20px 20px 20px;
+		text-align: center;
+	}
+
+	.footerContainer{
+		width: 100%;
+		padding: 5px 10px 20px;
+		position: absolute;
+	}
+
+
+	.socialmedia{
+		display: flex;
+		justify-content: center;
+	}
+
+
+	.footerbottom p{
+		font-size: 12px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.desiner-name{
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+		font-size: 12px;
+	}
+
+	#portfolio{
+		padding: 10px 10px 20px;
+		max-width: 1920px;
+		width: 100%;
+	}
+
+	.work-container{
+		display: block;
+		gap: 3px;
+		padding-bottom: 3px;
+	}
+
+	.colum{
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		padding-bottom: 5px;
+		width:100%;
+	}
+
+	.colum2{
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		padding-bottom: 10px;
+		width: 100%;
+	}
+	.work-detaily h3{
+		font-size: 18px;
+		color: white;
+		margin: 15px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+	}
+
+	#about{
+		padding: 15px 10px 0px 10px;
+		text-align: left;
+		display: block;
+	}
+
+	.container3{
+		display: block;
+	}
+
+
+	.zkus{
+		padding: 0px 0px 20px ;
+	}
+
+	.zkus h2{
+		font-size: 16px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		margin-bottom: 5px;
+		letter-spacing: 2px;
+	}
+
+	.zkus ul li{
+		font-size: 12px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 2px;
+		padding: 2px 0px 2px;
+	}
+
+	.zkus ul li a{
+		font-size: 11px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 1px;
+		padding: 2px 0px 2px;
+		text-decoration: underline;
+		color: white;
+	}
+
+	.container2{
+		display: block;
+		position: relative;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+
+	.tabulka{
+		padding-top: 0px;
+	}
+
+	.tabulka h2{
+		font-size: 16px;
+		text-align: left;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		margin-bottom: 5px;
+		padding-bottom: 0px;
+		letter-spacing: 1px;
+	}
+
+
+	.container2 form.top, .container2 form.stred, .container2 form.bottom, .container2 form.bottom{
+		display: block;
+		justify-content: center;
+
+	}
+
+
+	.tabulka input{
+		margin: 10px 0px;
+		padding: 15px;
+		border: none;
+		resize: none;
+		border-radius: 5px;
+		outline: none;
+		display: flex;
+		width: 100%;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 200;
+		font-style: normal;
+		letter-spacing: 1px;
+}
+
+	.tabulka textarea{
+		margin: 10px 0px;
+		padding: 15px;
+		border: none;
+		resize: none;
+		border-radius: 5px;
+		outline: none;
+		display: flex;
+		width: 100%;
+	}
+
+	.tabulka form textarea, .tabulka form button{
+		font-family: "coolvetica", sans-serif;
+		font-weight: 200;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+
+	.container2 form > button{
+		color: white;
+		border: none;
+		background: #0000FF;
+		padding: 15px;
+		border-radius: 5px;
+		outline: none;
+		text-align: center;
+		cursor: pointer;
+		width: 100%;
+
+	}
+	
+	.kontakty{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		padding: 15px 0px;
+		padding-bottom: 40px;
+	}
+
+	.soc{
+		text-align: right;
+		align-content: right;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		font-size: 11px;
+		letter-spacing: 1px;
+	}
+
+	.soc ul li{
+		list-style: none;
+	}
+
+	.soc ul li a{
+		color: #fff;
+		list-style: none;
+		position: relative;
+		font-size: 11px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 1px;
+		text-decoration: none;
+		padding: 2px 0px;
+	}
+
+
+	.soc h3{
+		font-size: 11px;
+		padding-bottom: 5px;;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 350;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+
+	.odkaz{
+		text-align: left;
+	}
+
+	.odkaz h3{
+		font-size: 11px;
+		padding-bottom: 5px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+
+	}
+
+	.odkaz p{
+		font-size: 11px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.list{
+		list-style: none;
+	}
+
+	.popis{
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		font-size: 12px;
+		letter-spacing: 1px;
+
+	}
+
+	.thomu{
+		width: 100%;
+		margin: 0px 0px 5px;
+		border-radius: 5px;
+		position: relative;
+		bottom: 10px;
+	}
+
+	.colum2 h2{
+		font-size: 16px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: 2px;
+		margin-bottom: 5px;
+
+	}
+
+}

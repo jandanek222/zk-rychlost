@@ -1,0 +1,1545 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Coolvetica light;
+	letter-spacing: 1px;
+}
+
+body{
+	background:black;
+	color:#fff;
+}
+
+.header{
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-color: black;
+}
+
+.container{
+	padding: 15px 15px 0px 15px;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.logo{
+	width: 110px;
+	cursor: pointer;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px 0px;
+	margin-left: 40px;
+}
+
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: 1px;
+}
+
+nav ul li a::after{
+	content: ' ';
+	width: 0%;
+	height: 2px;
+	background: #0000FF;
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	transition: 0.0s;
+
+}
+
+nav ul li a:hover::after{
+	width: 100%;
+}
+
+.ou{
+	font-size: 20px;
+}
+
+
+.header-text{
+	padding: 15px 15px;
+	font-size: 20px;
+	font-family: Coolvetica;
+}
+
+
+}
+
+/*-------------Hamé--------*/
+
+.prace-text{
+	padding-left: 40px;
+}
+
+.prace-text p{
+	width: 35%;
+	padding-top: 10px;
+	text-align: left;
+	font-size: 18px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	letter-spacing: 2px;
+}
+
+.prace-text h2{
+	width: 35%;
+	padding-top: 0px;
+	text-align: left;
+	font-size: 23px;
+	letter-spacing: 2px;
+	font-family: "coolvetica", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.obrazky img{
+	display: flex;
+	margin: 10px 0px 5px;
+	border-radius: 20px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.grid-container{
+	display: flex;
+	
+	gap: 10px;
+	flex-wrap: nowrap;
+
+}
+
+.item1{
+	flex-grow: 2;
+}
+
+.colum{
+	display: flex;
+	align-items: stretch;
+}
+
+.colum2{
+	display: flex;
+	align-items: stretch;
+	width: 50%;
+}
+
+.colum3{
+	display: flex;
+	position: relative;
+	align-items: stretch;
+	width: 40%;
+}
+
+.colum4{
+	display: flex;
+	width: 30%;
+}
+
+.colum5{
+	display: flex;
+	width: 30%;
+}
+
+.colum6{
+	display: flex;
+	position: relative;
+	align-items: stretch;
+	width: 60%;
+}
+
+.colum7{
+	display: flex;
+	width: 40%;
+}
+
+.colum8{
+	display: flex;
+	width: 47%;
+}
+
+.colum9{
+	display: flex;
+	width: 53%;
+}
+
+.colum10{
+	display: flex;
+	width: 43.8%;
+}
+
+.colum11{
+	display: flex;
+	width: 56.2%;
+}
+
+.colum12{
+	display: flex;
+	width: 40%;
+}
+
+.colum13{
+	display: flex;
+	width: 60%;
+}
+
+
+
+
+
+/*-------------Tutti--------*/
+
+
+
+.prace-text{
+	padding-bottom: 20px;
+}
+
+.jop2 img{
+	display: block;
+	width: 100%;
+	margin: 10px 0px 5px;
+	border-radius: 10px;
+}
+
+.jop3 img{
+	display: block;
+	width: 100%;
+	margin: 10px 0px 5px;
+	border-radius: 10px;
+}
+
+/*-------------plakaty--------*/
+
+.po{
+	width: 110%;
+}
+
+.obrazky{
+	flex-grow: 10px;
+}
+
+
+/*-------------no signal--------*/
+.jop5 img{
+	display: block;
+	width: 100%;
+	margin: 10px 0px 5px;
+	border-radius: 10px;
+}
+
+/*-------------no signal--------*/
+
+.jop6 img{
+	display: block;
+	width: 100%;
+	margin: 10px 0px 5px;
+	border-radius: 10px;
+}
+
+/*-------------casopis--------*/
+.jop7 img{
+	width: 50%;
+	
+}
+
+.jop8 img{
+	display: block;
+	width: 100%;
+	margin: 10px 0px 5px;
+	border-radius: 10px;
+}
+
+/*-------------byci--------*/
+
+.jop9 video{
+	width: 50%;
+	margin: 30px 0px 5px;
+	border-radius: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*-------------footer--------*/
+
+.footerContainer{
+	width: 100%;
+	padding: 5px 30px 30px;
+	position: absolute;
+}
+
+.socialmedia{
+	display: flex;
+	justify-content: center;
+}
+
+.socialmedia a{
+	padding: 10px;
+	margin: 10px;
+	color: white;
+	font-size: 20px;
+}
+
+.footerbottom{
+	padding: 20px;
+	text-align: center;
+	font-size: 15px;
+}
+
+
+
+/***************************************************************TELEFON*****************************************************************************************************/
+
+@media (max-width: 375px){
+
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: Coolvetica light;
+		letter-spacing: 1px;
+	}
+	
+	.ou{
+		font-size: 13px;
+		padding-bottom: 3px;
+	}
+
+	.container{
+		padding: 15px 10px 0px 10px;
+	}
+
+	.logo{
+		top: 5px;
+		width: 80px;
+	}
+	
+	nav ul li{
+		display: inline-block;
+		list-style: none;
+		margin: 10px 0px;
+		margin-left: 40px;
+	}
+
+	nav ul li a::after{
+		content: ' ';
+		width: 0%;
+		height: 2px;
+		background: #0000FF;
+		position: absolute;
+		left: 0;
+		bottom: 5px;
+		transition: 0.0s;
+
+	}
+
+	nav ul li a:hover::after{
+		width: 100%;
+	}
+
+	.header-text{
+		padding: 15px 10px;
+		font-size: 13px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+	}
+	
+	.header-text p{
+		padding: 15px 10px;
+		font-size: 13px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+	}
+
+
+	.prace-text{
+		padding-left: 0px;
+	}
+
+	.prace-text p{
+		width: 100%;
+		padding-top: 10px;
+		text-align: left;
+		font-size: 11px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.prace-text h2{
+		width: 100%;
+		padding-top: 0px;
+		text-align: left;
+		font-size: 15px;
+		letter-spacing: 2px;
+	}
+
+	.obrazky img{
+		display: block;
+		margin: 0px 0px 10px;
+		border-radius: 10px;
+		width: 100%;
+		object-fit: cover;
+		loading=
+
+	}
+
+	.grid-container{
+		display: block;
+		gap: 10px;
+		flex-wrap: nowrap;
+
+	}
+
+	.colum{
+		display: flex;
+		align-items: stretch;
+	}
+
+	.colum2{
+		display: flex;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.colum3{
+		display: flex;
+		position: relative;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.colum4{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum5{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum6{
+		display: flex;
+		position: relative;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.colum7{
+		display: flex;
+		width: 100%;
+	}
+
+
+	.colum8{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum9{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum10{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum11{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum12{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum13{
+		display: flex;
+		width: 100%;
+	}
+
+	
+
+
+	/*-------------Tutti--------*/
+
+
+
+	.prace-text{
+		padding-bottom: 20px;
+	}
+
+
+	/*-------------byci--------*/
+
+	.jop9 video{
+		width: 100%;
+		margin: 0px 0px 5px;
+		border-radius: 10px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/*-------------footer--------*/
+
+	.footerContainer{
+		width: 100%;
+		padding: 5px 10px 20px;
+		position: absolute;
+	}
+
+	.socialmedia{
+		display: flex;
+		justify-content: center;
+	}
+
+	.socialmedia a{
+		padding: 10px;
+		margin: 10px;
+		color: white;
+		font-size: 10px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.footerbottom{
+		padding: 10px 20px 20px 20px;
+		text-align: center;
+		font-size: 12px;
+	}
+
+
+	.footerbottom p{
+		font-size: 9px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.desiner-name{
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+		font-size: 9px;
+	}
+}
+
+/***************************************************************TELEFON*****************************************************************************************************/
+
+@media (max-width: 395px){
+
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: Coolvetica light;
+		letter-spacing: 1px;
+	}
+	
+	.ou{
+		font-size: 13px;
+		padding-bottom: 3px;
+	}
+
+	.container{
+		padding: 15px 10px 0px 10px;
+	}
+
+	.logo{
+		top: 5px;
+		width: 80px;
+	}
+	
+	nav ul li{
+		display: inline-block;
+		list-style: none;
+		margin: 10px 0px;
+		margin-left: 40px;
+	}
+
+	nav ul li a::after{
+		content: ' ';
+		width: 0%;
+		height: 2px;
+		background: #0000FF;
+		position: absolute;
+		left: 0;
+		bottom: 5px;
+		transition: 0.0s;
+
+	}
+
+	nav ul li a:hover::after{
+		width: 100%;
+	}
+
+	.header-text{
+		padding: 15px 10px;
+		font-size: 13px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+	}
+	
+	.header-text p{
+		padding: 15px 10px;
+		font-size: 13px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+	}
+
+
+	.prace-text{
+		padding-left: 0px;
+	}
+
+	.prace-text p{
+		width: 100%;
+		padding-top: 10px;
+		text-align: left;
+		font-size: 11px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.prace-text h2{
+		width: 100%;
+		padding-top: 0px;
+		text-align: left;
+		font-size: 15px;
+		letter-spacing: 2px;
+	}
+
+	.obrazky img{
+		display: block;
+		margin: 0px 0px 10px;
+		border-radius: 10px;
+		width: 100%;
+		object-fit: cover;
+		loading=
+
+	}
+
+	.grid-container{
+		display: block;
+		gap: 10px;
+		flex-wrap: nowrap;
+
+	}
+
+	.colum{
+		display: flex;
+		align-items: stretch;
+	}
+
+	.colum2{
+		display: flex;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.colum3{
+		display: flex;
+		position: relative;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.colum4{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum5{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum6{
+		display: flex;
+		position: relative;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.colum7{
+		display: flex;
+		width: 100%;
+	}
+
+
+	.colum8{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum9{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum10{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum11{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum12{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum13{
+		display: flex;
+		width: 100%;
+	}
+
+	
+
+
+	/*-------------Tutti--------*/
+
+
+
+	.prace-text{
+		padding-bottom: 20px;
+	}
+
+
+	/*-------------byci--------*/
+
+	.jop9 video{
+		width: 100%;
+		margin: 0px 0px 5px;
+		border-radius: 10px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/*-------------footer--------*/
+
+	.footerContainer{
+		width: 100%;
+		padding: 5px 10px 20px;
+		position: absolute;
+	}
+
+	.socialmedia{
+		display: flex;
+		justify-content: center;
+	}
+
+	.socialmedia a{
+		padding: 10px;
+		margin: 10px;
+		color: white;
+		font-size: 10px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.footerbottom{
+		padding: 10px 20px 20px 20px;
+		text-align: center;
+		font-size: 12px;
+	}
+
+
+	.footerbottom p{
+		font-size: 9px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.desiner-name{
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+		font-size: 9px;
+	}
+}
+
+/***************************************************************TELEFON*****************************************************************************************************/
+
+@media (max-width: 360px){
+
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: Coolvetica light;
+		letter-spacing: 1px;
+	}
+	
+	.ou{
+		font-size: 13px;
+		padding-bottom: 3px;
+	}
+
+	.container{
+		padding: 15px 10px 0px 10px;
+	}
+
+	.logo{
+		top: 5px;
+		width: 80px;
+	}
+	
+	nav ul li{
+		display: inline-block;
+		list-style: none;
+		margin: 10px 0px;
+		margin-left: 40px;
+	}
+
+	nav ul li a::after{
+		content: ' ';
+		width: 0%;
+		height: 2px;
+		background: #0000FF;
+		position: absolute;
+		left: 0;
+		bottom: 5px;
+		transition: 0.0s;
+
+	}
+
+	nav ul li a:hover::after{
+		width: 100%;
+	}
+
+	.header-text{
+		padding: 15px 10px;
+		font-size: 13px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+	}
+	
+	.header-text p{
+		padding: 15px 10px;
+		font-size: 13px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+	}
+
+
+	.prace-text{
+		padding-left: 0px;
+	}
+
+	.prace-text p{
+		width: 100%;
+		padding-top: 10px;
+		text-align: left;
+		font-size: 11px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.prace-text h2{
+		width: 100%;
+		padding-top: 0px;
+		text-align: left;
+		font-size: 15px;
+		letter-spacing: 2px;
+	}
+
+	.obrazky img{
+		display: block;
+		margin: 0px 0px 10px;
+		border-radius: 10px;
+		width: 100%;
+		object-fit: cover;
+		loading=
+
+	}
+
+	.grid-container{
+		display: block;
+		gap: 10px;
+		flex-wrap: nowrap;
+
+	}
+
+	.colum{
+		display: flex;
+		align-items: stretch;
+	}
+
+	.colum2{
+		display: flex;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.colum3{
+		display: flex;
+		position: relative;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.colum4{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum5{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum6{
+		display: flex;
+		position: relative;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.colum7{
+		display: flex;
+		width: 100%;
+	}
+
+
+	.colum8{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum9{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum10{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum11{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum12{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum13{
+		display: flex;
+		width: 100%;
+	}
+
+	
+
+
+	/*-------------Tutti--------*/
+
+
+
+	.prace-text{
+		padding-bottom: 20px;
+	}
+
+
+	/*-------------byci--------*/
+
+	.jop9 video{
+		width: 100%;
+		margin: 0px 0px 5px;
+		border-radius: 10px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/*-------------footer--------*/
+
+	.footerContainer{
+		width: 100%;
+		padding: 5px 10px 20px;
+		position: absolute;
+	}
+
+	.socialmedia{
+		display: flex;
+		justify-content: center;
+	}
+
+	.socialmedia a{
+		padding: 10px;
+		margin: 10px;
+		color: white;
+		font-size: 10px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.footerbottom{
+		padding: 10px 20px 20px 20px;
+		text-align: center;
+		font-size: 12px;
+	}
+
+
+	.footerbottom p{
+		font-size: 9px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.desiner-name{
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+		font-size: 9px;
+	}
+}
+
+/***************************************************************TELEFON*****************************************************************************************************/
+
+@media (max-width: 414px){
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: Coolvetica light;
+		letter-spacing: 1px;
+	}
+	
+	.ou{
+		font-size: 14px;
+		padding-bottom: 3px;
+	}
+
+	.container{
+		padding: 15px 10px 0px 10px;
+	}
+
+	.logo{
+		top: 5px;
+		width: 80px;
+	}
+	
+	nav ul li{
+		display: inline-block;
+		list-style: none;
+		margin: 10px 0px;
+		margin-left: 40px;
+	}
+
+	nav ul li a::after{
+		content: ' ';
+		width: 0%;
+		height: 2px;
+		background: #0000FF;
+		position: absolute;
+		left: 0;
+		bottom: 5px;
+		transition: 0.0s;
+
+	}
+
+	nav ul li a:hover::after{
+		width: 100%;
+	}
+
+	.header-text{
+		padding: 15px 10px;
+		font-size: 14px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+	}
+	
+	.header-text p{
+		padding: 15px 10px;
+		font-size: 14px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+	}
+
+
+	.prace-text{
+		padding-left: 0px;
+	}
+
+	.prace-text p{
+		width: 100%;
+		padding-top: 10px;
+		text-align: left;
+		font-size: 12px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.prace-text h2{
+		width: 100%;
+		padding-top: 0px;
+		text-align: left;
+		font-size: 16px;
+		letter-spacing: 2px;
+	}
+
+	.obrazky img{
+		display: block;
+		margin: 0px 0px 10px;
+		border-radius: 10px;
+		width: 100%;
+		object-fit: cover;
+		loading=
+
+	}
+
+	.grid-container{
+		display: block;
+		gap: 10px;
+		flex-wrap: nowrap;
+
+	}
+
+	.colum{
+		display: flex;
+		align-items: stretch;
+	}
+
+	.colum2{
+		display: flex;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.colum3{
+		display: flex;
+		position: relative;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.colum4{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum5{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum6{
+		display: flex;
+		position: relative;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.colum7{
+		display: flex;
+		width: 100%;
+	}
+
+
+	.colum8{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum9{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum10{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum11{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum12{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum13{
+		display: flex;
+		width: 100%;
+	}
+
+	
+
+
+	/*-------------Tutti--------*/
+
+
+
+	.prace-text{
+		padding-bottom: 20px;
+	}
+
+
+	/*-------------byci--------*/
+
+	.jop9 video{
+		width: 100%;
+		margin: 0px 0px 5px;
+		border-radius: 10px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/*-------------footer--------*/
+
+	.footerContainer{
+		width: 100%;
+		padding: 5px 10px 20px;
+		position: absolute;
+	}
+
+	.socialmedia{
+		display: flex;
+		justify-content: center;
+	}
+
+	.socialmedia a{
+		padding: 10px;
+		margin: 10px;
+		color: white;
+		font-size: 11px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.footerbottom{
+		padding: 10px 20px 20px 20px;
+		text-align: center;
+		font-size: 13px;
+	}
+
+
+	.footerbottom p{
+		font-size: 11px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.desiner-name{
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+		font-size: 11px;
+	}
+}
+/**********************************************************************************************************************************************************************/
+
+@media (max-width: 430px){
+
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: Coolvetica light;
+		letter-spacing: 1px;
+	}
+	
+	.ou{
+		font-size: 14px;
+		padding-bottom: 3px;
+	}
+
+	.container{
+		padding: 15px 10px 0px 10px;
+	}
+
+	.logo{
+		top: 5px;
+		width: 80px;
+	}
+	
+	nav ul li{
+		display: inline-block;
+		list-style: none;
+		margin: 10px 0px;
+		margin-left: 40px;
+	}
+
+	nav ul li a::after{
+		content: ' ';
+		width: 0%;
+		height: 2px;
+		background: #0000FF;
+		position: absolute;
+		left: 0;
+		bottom: 5px;
+		transition: 0.0s;
+
+	}
+
+	nav ul li a:hover::after{
+		width: 100%;
+	}
+
+	.header-text{
+		padding: 15px 10px;
+		font-size: 14px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+	}
+	
+	.header-text p{
+		padding: 15px 10px;
+		font-size: 14px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+	}
+
+
+	.prace-text{
+		padding-left: 0px;
+	}
+
+	.prace-text p{
+		width: 100%;
+		padding-top: 10px;
+		text-align: left;
+		font-size: 12px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.prace-text h2{
+		width: 100%;
+		padding-top: 0px;
+		text-align: left;
+		font-size: 16px;
+		letter-spacing: 2px;
+	}
+
+	.obrazky img{
+		display: block;
+		margin: 0px 0px 10px;
+		border-radius: 10px;
+		width: 100%;
+		object-fit: cover;
+		loading=
+
+	}
+
+	.grid-container{
+		display: block;
+		gap: 10px;
+		flex-wrap: nowrap;
+
+	}
+
+	.colum{
+		display: flex;
+		align-items: stretch;
+	}
+
+	.colum2{
+		display: flex;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.colum3{
+		display: flex;
+		position: relative;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.colum4{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum5{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum6{
+		display: flex;
+		position: relative;
+		align-items: stretch;
+		width: 100%;
+	}
+
+	.colum7{
+		display: flex;
+		width: 100%;
+	}
+
+
+	.colum8{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum9{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum10{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum11{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum12{
+		display: flex;
+		width: 100%;
+	}
+
+	.colum13{
+		display: flex;
+		width: 100%;
+	}
+
+	
+
+
+	/*-------------Tutti--------*/
+
+
+
+	.prace-text{
+		padding-bottom: 20px;
+	}
+
+
+	/*-------------byci--------*/
+
+	.jop9 video{
+		width: 100%;
+		margin: 0px 0px 5px;
+		border-radius: 10px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/*-------------footer--------*/
+
+	.footerContainer{
+		width: 100%;
+		padding: 5px 10px 20px;
+		position: absolute;
+	}
+
+	.socialmedia{
+		display: flex;
+		justify-content: center;
+	}
+
+	.socialmedia a{
+		padding: 10px;
+		margin: 10px;
+		color: white;
+		font-size: 11px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.footerbottom{
+		padding: 10px 20px 20px 20px;
+		text-align: center;
+		font-size: 13px;
+	}
+
+
+	.footerbottom p{
+		font-size: 11px;
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+	}
+
+	.desiner-name{
+		font-family: "coolvetica", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		letter-spacing: 1px;
+		font-size: 11px;
+	}
+}
